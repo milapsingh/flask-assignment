@@ -1,0 +1,8 @@
+{% block content %}
+<div class="search">
+<form action="/search" method=post>
+    <input type=text name=name value="{{ request.form.search}}"></br>
+    <div class="actions"><input type=submit value="Search"></div>
+</form>
+</div>
+{% endblock %}

@@ -1,0 +1,17 @@
+<html>
+<head>
+</head>
+  <body>
+      <p> This is home page</p>
+      {% block content %}
+      <div class="search">
+      <form action="/add_data" method=post>
+          <div class="actions">Fot adding more details click:&nbsp;&nbsp; <input type=submit value="Add"></div>
+      </form>
+      <form action="/search">
+          <div class="actions">Fot search by name click: &nbsp;&nbsp;<input type=submit value="search"></div>
+      </form>
+      </div>
+      {% endblock %}
+  </body>
+  </html>

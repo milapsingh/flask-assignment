@@ -1,0 +1,18 @@
+<html>
+  <body>
+    <div class="container">
+      <h1>Please Sign up</h1>
+      <br>
+      <form action="/signup" method="post">
+        <input type="text" placeholder="Name" name="name" value="{{
+          request.form.name }}">
+         <input type="text" placeholder="Address" name="address" value="{{
+          request.form.address }}">
+          <input type="number" placeholder="Mobile" name="mobile" value="{{
+           request.form.mobile }}">
+        <input class="btn btn-default" type="submit" value="signup">
+      </form>
+      <h1> For search open url localhost:4000/search<h1>
+    </div>
+  </body>
+</html>
